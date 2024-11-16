@@ -39,7 +39,11 @@ function generatePlaylist(guardians, songs) {
         const preferredGenre = guardians[guardianName];
 
         // FILTER SONGS BY THE GUARDIANS PREFERRED GENRE
-        const playlist = songs.filter(song => song.genre === PreferredGenre)
+        const playlist = songs.filter(song => song.genre === PreferredGenre);
+
+        // CREATING A DIV THE GUARDING'S NAME
+        const playlistDiv = document.createElement("div");
+        playlistDiv.classList.add("playlist");
     }); 
 
 }
