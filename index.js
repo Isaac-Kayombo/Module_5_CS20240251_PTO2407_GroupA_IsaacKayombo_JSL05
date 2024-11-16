@@ -30,8 +30,10 @@ const guardians = {
 
 // Function to generate playlist based on preferred genre
 function generatePlaylist(guardians, songs) {
-    // Use the map() function to create playlists for each Guardian
-    // Your code here
+    // CLEARING THE EXISTING CONTENT.
+    const playlistsDiv = document.getElementById("playlists");
+    playlistsDiv.innerHTML = "";
+
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
