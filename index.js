@@ -34,7 +34,7 @@ function generatePlaylist(guardians, songs) {
     const playlistsDiv = document.getElementById("playlists");
     playlistsDiv.innerHTML = "";
 
-    // FOR LOOPING EACH GUARDIAN IN guardians object
+    // FOR LOOPING EACH GUARDIAN IN guardians object USING .map
     Object.keys(guardians).map(guardianName => {
         const preferredGenre = guardians[guardianName];
 
