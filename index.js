@@ -59,6 +59,11 @@ function generatePlaylist(guardians, songs) {
             songItem.innerHTML = `<span class="song-title">${song.title}</span> by ${song.artist}`;
             songList.appendChild(songItem);
         });
+
+        playlistDiv.appendChild(songList);
+
+        // APPENDING THE WHOLE PLAYLIST
+        playlistsDiv.appendChild(playlistDiv);
     }); 
 
 }
