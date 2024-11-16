@@ -36,7 +36,10 @@ function generatePlaylist(guardians, songs) {
 
     // FOR LOOPING EACH GUARDIAN IN guardians object
     Object.keys(guardians).map(guardianName => {
-        
+        const preferredGenre = guardians[guardianName];
+
+        // FILTER SONGS BY THE GUARDIANS PREFERRED GENRE
+        const playlist = songs.filter(song => song.genre === PreferredGenre)
     }); 
 
 }
