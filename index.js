@@ -34,6 +34,11 @@ function generatePlaylist(guardians, songs) {
     const playlistsDiv = document.getElementById("playlists");
     playlistsDiv.innerHTML = "";
 
+    // FOR LOOPING EACH GUARDIAN IN guardians object
+    Object.keys(guardians).map(guardianName => {
+        
+    }); 
+
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
