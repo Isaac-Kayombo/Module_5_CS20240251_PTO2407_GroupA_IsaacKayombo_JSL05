@@ -49,6 +49,9 @@ function generatePlaylist(guardians, songs) {
         const guardianTitle = document.createElement("h3");
         guardianTitle.textContent = `${guardianName}'s Playlist`;
         playlistDiv.appendChild(guardianTitle);
+
+        // DISPLAYING SONG LIST 
+        const songList = document.createElement("ul");
     }); 
 
 }
